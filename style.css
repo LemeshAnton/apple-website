@@ -1,51 +1,53 @@
-body{
+body {
   margin: 0;
   padding: 0;
-  
 }
-.container-help{
-    background-color: 
-    #000000;
-    width: 100%;
-    height: 414px;
-    text-align: center;
-  
+.container-help {
+  background-color: #000000;
+  width: 100%;
+  padding-top: 113px;
+  padding-bottom: 108px;
+  text-align: center;
 }
-.header-help{
- 
-   display: flex;
-   justify-content: center;
-   align-items: center;
-    height: 84px;
-    font-size: 40px;
-    color: #FFFFFF;
-    line-height: 42px;
-    vertical-align: top;
-   padding-top: 113px;
-   margin-top: 0;
+.header-help {
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: #ffffff;
+  line-height: 42px;
+  vertical-align: top;
+  margin-bottom: 15px;
 }
-.subtitle-help{
-   height: 15px;
-    color: #C0C0C0;
-    font-size: 24px;
-    line-height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  margin-top: -9px;
+.subtitle-help {
+  margin-top: 0;
+  color: #c0c0c0;
+  font-size: 24px;
+  line-height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 22px;
 }
-.get-in-touch{
-    border-radius: 14px ;
-    color:  #000000;
-    background-color:#FFFFFF ;
-  display: inline-block;
-  margin:0 auto;
-    text-decoration: none;
-    line-height: 20px;
-    vertical-align:top;
-    letter-spacing:0.4px;
-    padding: 9px 10px 13px 13px;
-    font-size: 16px;
-  
-    
+.get-in-touch {
+  border-radius: 14px;
+  color: #000000;
+  background-color: #ffffff;
+  display: inline-flex;
+  justify-content: center;
+  text-decoration: none;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  padding: 9px 10px 13px 0px;
+  font-size: 16px;
+}
+.header-help:last-child,
+.subtitle-help:last-child,
+.get-in-touch:last-child {
+  margin-bottom: 0;
+}
+.google {
+  padding-right: 11px;
+  padding-left: 4px;
 }
