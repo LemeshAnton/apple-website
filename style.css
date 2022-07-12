@@ -23,7 +23,7 @@ body {
   align-items: center;
   font-size: 40px;
   color: #ffffff;
-  line-height: 42px;
+  line-height: 1.1;
   vertical-align: top;
   margin-bottom: 15px;
 }
@@ -31,7 +31,7 @@ body {
   margin-top: 0;
   color: #c0c0c0;
   font-size: 24px;
-  line-height: 30px;
+  line-height: 1.1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -64,11 +64,11 @@ body {
   text-decoration: none;
   line-height: 20px;
   letter-spacing: 0.4px;
+  padding: 9px 10px 13px 9px;
 
   font-size: 16px;
 }
 .google {
-  background: url(./img/Google__G__Logo.svg);
   display: none;
 }
 @media (min-width: 768px) {
@@ -79,7 +79,6 @@ body {
     font-size: 20px;
   }
   .google {
-    background: url(./img/Google__G__Logo.svg);
     display: block;
   }
   .get-in-touch {
