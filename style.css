@@ -47,9 +47,10 @@ body {
   background-color: #ffffff;
   display: inline-flex;
   justify-content: center;
+  align-items: center;
   text-decoration: none;
   letter-spacing: 0.4px;
-  padding: 9px 10px 13px 9px;
+  padding: 9px 9px 9px 9px;
   line-height: 1.1;
   font-size: 16px;
 }
@@ -66,10 +67,13 @@ body {
   position: absolute;
   bottom: 10%;
   right: 0;
+  display: inline-flex;
+  align-content: center;
 }
 
 .photo-text {
-  padding-right: 50px;
+  padding-right: 20px;
+  padding-left: 5px;
   color: #ffffff;
   font-size: 12px;
 }
@@ -91,6 +95,7 @@ body {
     padding-top: 64px;
     padding-bottom: 64px;
     padding-left: 20px;
+    padding-right: 20px;
     text-align: left;
     width: 100%;
     max-width: 514px;
@@ -104,10 +109,12 @@ body {
     position: absolute;
     bottom: 5%;
     right: 0;
+    display: inline-flex;
   }
 
   .photo-text {
     padding-right: 20px;
+    padding-left: 5px;
     color: #ffffff;
     font-size: 12px;
   }
@@ -147,6 +154,7 @@ body {
     padding-top: 120px;
     padding-bottom: 120px;
     padding-left: 20px;
+    padding-right: 20px;
     text-align: left;
     width: 100%;
     max-width: 514px;
@@ -161,10 +169,12 @@ body {
     position: absolute;
     bottom: 5%;
     right: 0;
+    display: inline-flex;
   }
 
   .photo-text {
     padding-right: 20px;
+    padding-left: 5px;
     color: #ffffff;
     font-size: 12px;
   }
@@ -248,7 +258,7 @@ body {
   justify-content: center;
   text-decoration: none;
   letter-spacing: 0.4px;
-  padding: 9px 10px 13px 9px;
+  padding: 9px 9px 9px 9px;
   line-height: 1.1;
   font-size: 16px;
 }
@@ -273,7 +283,7 @@ body {
     justify-content: center;
     text-decoration: none;
     letter-spacing: 0.4px;
-    padding: 9px 10px 13px 0px;
+    padding: 9px 9px 9px 9px;
     font-size: 16px;
   }
   .container-help {
