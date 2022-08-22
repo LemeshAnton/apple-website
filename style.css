@@ -10,110 +10,110 @@ body {
   padding: 0;
 }
 /* PORTUGAL-CAGE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-.portugal-cage {
+.gear-cage_color-white {
   background-color: #ffff;
   margin-top: 0px;
   padding-bottom: 48px;
 }
-.portugal-content {
+.content_white {
   padding-top: 48px;
   text-align: center;
   margin: 0 auto;
   max-width: 514px;
 }
-.portugal-title-cage {
+.content__title_color-tomato {
   color: tomato;
   font-size: 10px;
   line-height: 1.1;
   margin-bottom: 6px;
 }
-.portugal-subtitle-cage {
+.content__subtitle_color-black {
   color: #000000;
   font-size: 16px;
   line-height: 1.1;
   margin-bottom: 14px;
 }
-.portugal-text-cage {
+.content__text_color-black {
   color: #000000;
   font-size: 12px;
   line-height: 1.1;
   margin-bottom: 20px;
 }
-.portugal-background {
+.gear-cage__photo-background {
   width: 100%;
   height: 300px;
   object-fit: cover;
 }
-.portugal-photo {
+.gear-cage__photo {
   position: relative;
   width: 100%;
 }
-.portugal-icons {
+.gear-cage__icons_left {
   position: absolute;
   bottom: 10%;
-  left: 0;
+  left: 3%;
   display: inline-flex;
   align-content: center;
 }
-.portugal-photo-text {
+.gear-cage__text-icons_left {
   padding-left: 10px;
   padding-right: 10px;
   color: #ffffff;
   font-size: 12px;
 }
 @media (min-width: 768px) {
-  .portugal-cage {
+  .gear-cage_color-white {
     display: flex;
     flex-direction: row;
     background-color: #ffff;
     margin-top: 0px;
     padding-bottom: 0px;
   }
-  .portugal-content {
+  .content_white {
     padding-top: 64px;
     padding-bottom: 64px;
     padding-left: 20px;
     padding-right: 20px;
-    text-align: left;
+    text-align: center;
     width: 100%;
     max-width: 514px;
     color: #000000;
   }
-  .portugal-photo {
+  .gear-cage__photo {
     position: relative;
     width: 100%;
   }
-  .portugal-icons {
+  .gear-cage__icons_left {
     position: absolute;
     bottom: 5%;
-    left: 0;
+    left: 3%;
     display: inline-flex;
   }
 
-  .portugal-photo-text {
+  .gear-cage__text-icons_left {
     padding-left: 10px;
     padding-right: 10px;
     color: #fff;
     font-size: 12px;
   }
-  .portugal-background {
+  .gear-cage__photo-background {
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
-  .portugal-title-cage {
+  .content__title_color-tomato {
     color: tomato;
     font-size: 14px;
     line-height: 1.1;
     margin-bottom: 6px;
   }
-  .portugal-subtitle-cage {
+  .content__subtitle_color-black {
     color: #000000;
     font-size: 24px;
     line-height: 1.1;
     margin-bottom: 14px;
   }
-  .portugal-text-cage {
+  .content__text_color-black {
     color: #000000;
     font-size: 14px;
     line-height: 1.1;
@@ -121,59 +121,59 @@ body {
   }
 }
 @media (min-width: 1024px) {
-  .portugal-cage {
+  .gear-cage_color-white {
     display: flex;
     flex-direction: row;
     background-color: #fff;
     margin-top: 0px;
     padding-bottom: 0px;
   }
-  .portugal-content {
+  .content_white {
     padding-top: 120px;
     padding-bottom: 120px;
     padding-left: 20px;
     padding-right: 20px;
-    text-align: left;
+    text-align: center;
     width: 100%;
     max-width: 514px;
     color: #000000;
     margin: auto;
   }
-  .portugal-photo {
+  .gear-cage__photo {
     position: relative;
     width: 50%;
   }
-  .portugal-icons {
+  .gear-cage__icons_left {
     position: absolute;
     bottom: 5%;
-    left: 0;
+    left: 3%;
     display: inline-flex;
   }
 
-  .portugal-photo-text {
+  .gear-cage__text-icons_left {
     padding-left: 10px;
     padding-right: 10px;
     color: #ffffff;
     font-size: 12px;
   }
-  .portugal-background {
+  .gear-cage__photo-background {
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
-  .title-cage {
+  .content__title_color-tomato {
     color: tomato;
     font-size: 14px;
     line-height: 1.1;
     margin-bottom: 6px;
   }
-  .portugal-subtitle-cage {
+  .content__subtitle_color-black {
     color: #000000;
     font-size: 28px;
     line-height: 1.1;
     margin-bottom: 14px;
   }
-  .portugal-text-cage {
+  .content__text_color-black {
     color: #000000;
     font-size: 14px;
     line-height: 1.1;
@@ -181,36 +181,36 @@ body {
   }
 }
 /* GEAR-CAGE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-.gear-cage {
+.gear-cage_color-black {
   background-color: #000000;
   margin-top: 0px;
   padding-bottom: 48px;
 }
-.content {
+.content_black {
   padding-top: 48px;
   text-align: center;
   margin: 0 auto;
   max-width: 514px;
 }
-.title-cage {
+.content__title_color-gray {
   color: #c0c0c0;
   font-size: 10px;
   line-height: 1.1;
   margin-bottom: 6px;
 }
-.subtitle-cage {
+.content__subtitle_color-white {
   color: #ffffff;
   font-size: 16px;
   line-height: 1.1;
   margin-bottom: 14px;
 }
-.text-cage {
+.content__text_color-white {
   color: #ffffff;
   font-size: 12px;
   line-height: 1.1;
   margin-bottom: 20px;
 }
-.check-it-out {
+.content__link {
   font-size: 12px;
   border-radius: 14px;
   color: #000000;
@@ -224,16 +224,16 @@ body {
   line-height: 1.1;
   font-size: 16px;
 }
-.title-cage:last-child,
-.subtitle-cage:last-child,
-.text-cage:last-child {
+.content__title:last-child,
+.content__subtitle:last-child,
+.content__text:last-child {
   margin-bottom: 0;
 }
-.photo {
+.gear-cage__photo {
   position: relative;
   width: 100%;
 }
-.icons {
+.gear-cage__icons_right {
   position: absolute;
   bottom: 10%;
   right: 0;
@@ -241,27 +241,30 @@ body {
   align-content: center;
 }
 
-.photo-text {
+.gear-cage__text-icons_right {
   padding-right: 20px;
   padding-left: 5px;
   color: #ffffff;
   font-size: 12px;
 }
-.photo-background {
+.gear-cage__photo-background {
   width: 100%;
   height: 300px;
   object-fit: cover;
 }
+img.content__logo-google {
+  padding-right: 2px;
+}
 
 @media (min-width: 768px) {
-  .gear-cage {
+  .gear-cage_color-black {
     display: flex;
     flex-direction: row-reverse;
     background-color: #000000;
     margin-top: 0px;
     padding-bottom: 0px;
   }
-  .content {
+  .content_black {
     padding-top: 64px;
     padding-bottom: 64px;
     padding-left: 20px;
@@ -271,41 +274,41 @@ body {
     max-width: 514px;
     color: #ffffff;
   }
-  .photo {
+  .gear-cage__photo {
     position: relative;
     width: 100%;
   }
-  .icons {
+  .gear-cage__icons_right {
     position: absolute;
     bottom: 5%;
     right: 0;
     display: inline-flex;
   }
 
-  .photo-text {
+  .gear-cage__text-icons_right {
     padding-right: 20px;
     padding-left: 5px;
     color: #ffffff;
     font-size: 12px;
   }
-  .photo-background {
+  .gear-cage__photo-background {
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
-  .title-cage {
+  .content__title_color-gray {
     color: #c0c0c0;
     font-size: 14px;
     line-height: 1.1;
     margin-bottom: 6px;
   }
-  .subtitle-cage {
+  .content__subtitle_color-white {
     color: #ffffff;
     font-size: 24px;
     line-height: 1.1;
     margin-bottom: 14px;
   }
-  .text-cage {
+  .content__text_color-white {
     color: #ffffff;
     font-size: 14px;
     line-height: 1.1;
@@ -313,14 +316,14 @@ body {
   }
 }
 @media (min-width: 1024px) {
-  .gear-cage {
+  .gear-cage_color-black {
     display: flex;
     flex-direction: row-reverse;
     background-color: #000000;
     margin-top: 0px;
     padding-bottom: 0px;
   }
-  .content {
+  .content_black {
     padding-top: 120px;
     padding-bottom: 120px;
     padding-left: 20px;
@@ -331,41 +334,41 @@ body {
     color: #ffffff;
     margin: auto;
   }
-  .photo {
+  .gear-cage__photo {
     position: relative;
     width: 50%;
   }
-  .icons {
+  .gear-cage__icons_right {
     position: absolute;
     bottom: 5%;
     right: 0;
     display: inline-flex;
   }
 
-  .photo-text {
+  .gear-cage__text-icons_right {
     padding-right: 20px;
     padding-left: 5px;
     color: #ffffff;
     font-size: 12px;
   }
-  .photo-background {
+  .gear-cage__photo-background {
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
-  .title-cage {
+  .content__title_color-gray {
     color: #c0c0c0;
     font-size: 14px;
     line-height: 1.1;
     margin-bottom: 6px;
   }
-  .subtitle-cage {
+  .content__subtitle_color-white {
     color: #ffffff;
     font-size: 28px;
     line-height: 1.1;
     margin-bottom: 14px;
   }
-  .text-cage {
+  .content__title_color-white {
     color: #ffffff;
     font-size: 14px;
     line-height: 1.1;
